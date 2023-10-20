@@ -2,10 +2,11 @@ package input.builder;
 
 import java.util.List;
 
-import input.components.*;
-import input.components.point.*;
-import input.components.segment.SegmentNode;
-import input.components.segment.SegmentNodeDatabase;
+import input.components.FigureNode;
+import input.components.PointNode;
+import input.components.PointNodeDatabase;
+import input.components.SegmentNode;
+import input.components.SegmentNodeDatabase;
 
 /*
  * A Builder design pattern for constructing a geometry hierarchy.
